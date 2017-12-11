@@ -1,0 +1,49 @@
+{
+  "name": "lcu-connector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "4.13.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-security": "1.4.0",
+    "jest": "21.2.1"
+  },
+  "dependencies": {
+    "chokidar": "1.7.0",
+    "fs-extra": "4.0.3",
+    "lol-lockfile-parser": "1.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/Pupix/lcu-connector",
+  "author": {
+    "name": "Robert Manolea",
+    "email": "manolea.robert@gmail.com"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "contributors": [
+    {
+      "name": "Robert Manolea",
+      "email": "manolea.robert@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pupix/lcu-connector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pupix/lcu-connector/issues"
+  },
+  "keywords": [
+    "connector",
+    "league of legends",
+    "lol",
+    "lcu"
+  ]
+}

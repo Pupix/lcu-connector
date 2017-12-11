@@ -1,0 +1,90 @@
+{
+  "extends": [
+    "airbnb-base",
+    "plugin:security/recommended",
+    "eslint:recommended",
+    "plugin:node/recommended"
+  ],
+
+  "globals": {
+
+  },
+
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+
+  "plugins": [
+    // Node specific ESLint rules (requires eslint-plugin-node)
+    "node",
+
+    // Identify potential security hotspots (requires eslint-plugin-security)
+    "security",
+
+    // Enable es6 imports (requires eslint-plugin-import)
+     "import"
+
+    // Enable linting in html files (requires eslint-plugin-html)
+//     "html"
+  ],
+
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  },
+
+  "rules": {
+    "indent": ["error", 4, {
+      "SwitchCase": 1,
+      "VariableDeclarator": 1,
+      "outerIIFEBody": 1,
+      // MemberExpression: null,
+      // CallExpression: {
+      //   parameters: null,
+      // },
+      "FunctionDeclaration": {
+        "parameters": 1,
+        "body": 1
+      },
+      "FunctionExpression": {
+        "parameters": 1,
+        "body": 1
+      }
+    }],
+
+    "no-underscore-dangle": ["error", {
+      "allowAfterThis": true,
+      "allowAfterSuper": true
+    }],
+
+    "spaced-comment": ["error", "always", {
+      "line": {
+        "exceptions": ["-", "+", "*"],
+        "markers": ["=", "!"] // space here to support sprockets directives
+      },
+      "block": {
+        "exceptions": ["-", "+", "*"],
+        "markers": ["=", "!"], // space here to support sprockets directives
+        "balanced": false
+      }
+    }],
+
+    "comma-dangle": ["error", "never"],
+
+    "max-len": ["error", 120, 2, {
+      "ignoreUrls": true,
+      "ignoreComments": false,
+      "ignoreRegExpLiterals": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true
+    }],
+
+    "arrow-parens": ["error", "as-needed"]
+  }
+
+}

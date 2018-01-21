@@ -84,7 +84,10 @@
       "ignoreTemplateLiterals": true
     }],
 
-    "arrow-parens": ["error", "as-needed"]
+    "arrow-parens": ["error", "as-needed"],
+
+    "security/detect-child-process": "off",
+    "security/detect-non-literal-fs-filename": "off"
   }
 
 }

@@ -12,7 +12,7 @@
     "jest": "21.2.1"
   },
   "dependencies": {
-    "chokidar": "1.7.0",
+    "chokidar": "2.0.4",
     "fs-extra": "4.0.3",
     "lol-lockfile-parser": "1.0.2"
   },

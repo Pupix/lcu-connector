@@ -44,8 +44,7 @@ Creates a new lcu-connector.
 
 **Parameters**
 
-1. **[executablePath = "C:\Riot Games\League of Legends\LeagueClient.exe"] {string}** A path to where the LeagueClient executable resides. If not passed it will be automatically figured out from the OS process list.
-
+1. **[executablePath] {string}** A path to where the LeagueClient executable resides. If not passed it will be automatically figured out from the OS process list.
 
 ### start()
 

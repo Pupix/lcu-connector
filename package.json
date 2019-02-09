@@ -1,8 +1,9 @@
 {
   "name": "lcu-connector",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "index.js",
   "license": "MIT",
+  "types": "types.d.ts",
   "devDependencies": {
     "eslint": "4.13.0",
     "eslint-config-airbnb-base": "12.1.0",

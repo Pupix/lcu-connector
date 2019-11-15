@@ -1,20 +1,20 @@
 {
   "name": "lcu-connector",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "main": "index.js",
   "license": "MIT",
   "types": "types.d.ts",
   "devDependencies": {
-    "eslint": "4.13.0",
-    "eslint-config-airbnb-base": "12.1.0",
-    "eslint-plugin-import": "2.8.0",
-    "eslint-plugin-node": "5.2.1",
+    "eslint": "6.6.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-node": "10.0.0",
     "eslint-plugin-security": "1.4.0",
-    "jest": "24.3.1"
+    "jest": "24.9.0"
   },
   "dependencies": {
-    "chokidar": "2.1.2",
-    "fs-extra": "4.0.3",
+    "chokidar": "3.3.0",
+    "fs-extra": "8.1.0",
     "lol-lockfile-parser": "1.0.2"
   },
   "engines": {

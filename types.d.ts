@@ -1,5 +1,5 @@
 declare class LCUConnector {
-        constructor(path: string);
+        constructor(path?: string);
 
         static getLCUPathFromProcess(): Promise<string | void>;
 

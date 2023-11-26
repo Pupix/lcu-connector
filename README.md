@@ -26,7 +26,7 @@ connector.on('connect', (data) => {
     //    address: '127.0.0.1'
     //    port: 18633,
     //    username: 'riot',
-    //    password: H9y4kOYVkmjWu_5mVIg1qQ,
+    //    password: 'H9y4kOYVkmjWu_5mVIg1qQ',
     //    protocol: 'https'
     //  }
 });
